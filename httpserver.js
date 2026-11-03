@@ -181,8 +181,8 @@ const server = http.createServer((req, res) => {
 });
 
 // Start server
-server.listen(5000, () => {
+server.listen(3000, () => {
     console.log(
-        "HTTP Server running at http://localhost:5000"
+        "HTTP Server running at http://localhost:3000"
     );
 });
